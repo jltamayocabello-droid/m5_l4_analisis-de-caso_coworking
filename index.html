@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebInnovate - Gestión de Eventos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>WebInnovate</h1>
+            <p>Plataforma de Gestión de Eventos y Coworking</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- Sección de Control -->
+        <section id="controls">
+            <button id="cargar-eventos" class="btn btn-primary">
+                Cargar Eventos Disponibles
+            </button>
+            <div id="loader" class="loader hidden"></div>
+        </section>
+
+        <!-- Lista de Eventos -->
+        <section id="eventos-section">
+            <h2>Próximos Eventos</h2>
+            <ul id="lista-eventos" class="event-list">
+                <!-- Los eventos se cargarán aquí dinámicamente -->
+                <li class="empty-state">No hay eventos cargados. Haz clic en el botón para verlos.</li>
+            </ul>
+        </section>
+
+        <!-- Formulario de Reserva -->
+        <section id="reserva-section">
+            <h2>Reserva tu Lugar</h2>
+            <form id="form-reserva" class="card">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" required placeholder="Ej: Ana García">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" required placeholder="Ej: ana@webinnovate.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="evento-select">Seleccionar Evento</label>
+                    <select id="evento-select" required>
+                        <option value="">-- Elige un evento --</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-secondary">Confirmar Reserva</button>
+            </form>
+            <div id="mensaje-reserva" class="hidden"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 WebInnovate Inc. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
