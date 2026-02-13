@@ -67,7 +67,7 @@ Para visualizar este proyecto no necesitas instalar dependencias de Node.js, ya 
 4. Completa el formulario y selecciona uno de los eventos cargados.
 5. Haz clic en **"Confirmar Reserva"** para ver la simulación de envío.
 
-###🌐 Despliegue (Demo)
+## 🌐 Despliegue (Demo)
 
 **Repositorio GitHub:** 🔗 https://github.com/jltamayocabello-droid/m5_l4_analisis-de-caso_coworking.git
 
