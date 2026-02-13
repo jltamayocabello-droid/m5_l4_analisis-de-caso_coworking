@@ -68,5 +68,7 @@ Para visualizar este proyecto no necesitas instalar dependencias de Node.js, ya 
 5. Haz clic en **"Confirmar Reserva"** para ver la simulación de envío.
 
 ## ✒️ Autor
+
 **Jorge Tamayo**
-Desarrollador Web - Front-End Trainee
+
+*Estudiante de Desarrollo Front-End Trainee - SENCE*
